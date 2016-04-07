@@ -24,6 +24,7 @@ module.exports = function(grunt) {
                     'bootstrap-iconpicker/js/iconset/iconset-glyphicon.min.js':             ['bootstrap-iconpicker/js/iconset/iconset-glyphicon.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-glyphicon-pro.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-glyphicon-pro.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.js'],
+                    'bootstrap-iconpicker/js/iconset/iconset-ionicon-3.0.0.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-ionicon-3.0.0.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-materialdesign-1.1.1.min.js':  ['bootstrap-iconpicker/js/iconset/iconset-materialdesign-1.1.1.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-octicon-2.1.2.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-octicon-2.1.2.js'],
