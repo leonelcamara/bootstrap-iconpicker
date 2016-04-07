@@ -7,7 +7,7 @@ A simple iconpicker for Bootstrap 3.x.
 ## Dependencies NOT INCLUDED in this fork
 * Bootstrap
 * jQuery
-* Font and CSS files for the iconsets you use
+* Font and CSS files for the icon sets you use
 
 ## License
 Licensed under [the MIT license](LICENSE).
