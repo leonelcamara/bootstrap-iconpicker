@@ -20,7 +20,9 @@ module.exports = function(grunt) {
                     'bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.1.0.min.js':     ['bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.1.0.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.2.0.min.js':     ['bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.2.0.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.3.0.min.js':     ['bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.3.0.js'],
+                    'bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.5.0.min.js':     ['bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.5.0.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-glyphicon.min.js':             ['bootstrap-iconpicker/js/iconset/iconset-glyphicon.js'],
+                    'bootstrap-iconpicker/js/iconset/iconset-glyphicon-pro.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-glyphicon-pro.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.min.js':         ['bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.js'],
                     'bootstrap-iconpicker/js/iconset/iconset-materialdesign-1.1.1.min.js':  ['bootstrap-iconpicker/js/iconset/iconset-materialdesign-1.1.1.js'],
@@ -37,7 +39,7 @@ module.exports = function(grunt) {
             iconset: {
                 src: [
                     'bootstrap-iconpicker/js/iconset/iconset-elusiveicon-2.0.0.min.js',
-                    'bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.3.0.min.js',
+                    'bootstrap-iconpicker/js/iconset/iconset-fontawesome-4.5.0.min.js',
                     'bootstrap-iconpicker/js/iconset/iconset-glyphicon.min.js',
                     'bootstrap-iconpicker/js/iconset/iconset-ionicon-1.5.2.min.js',
                     'bootstrap-iconpicker/js/iconset/iconset-mapicon-2.1.0.min.js',
