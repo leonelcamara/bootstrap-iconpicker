@@ -218,7 +218,7 @@
             var tr = $('<tr></tr>');
             for (var j = 0; j < op.cols; j++) {
                 var pos = offset + (i * op.cols) + j;
-                var btn = $('<button class="btn ' + op.unselectedClass + ' btn-icon"></button>').hide();
+                var btn = $('<button type="button" class="btn ' + op.unselectedClass + ' btn-icon"></button>').hide();
                 if (pos < op.icons.length) {
                     var v = op.iconClassFix + op.icons[pos];
                     btn.val(v).attr('title', v).append('<i class="' + op.iconClass + ' ' + v + '"></i>').show();
@@ -265,7 +265,7 @@
                 var td = $('<td class="text-center"></td>');
                 if (i === 0 || i === op.cols - 1) {
                     var arrow = [
-                        '<button class="btn btn-arrow ' + ((i === 0) ? 'btn-previous' : 'btn-next') + ' ' + op.arrowClass + '" value="' + ((i === 0) ? -1 : 1) + '">',
+                        '<button class="btn btn-arrow ' + ((i === 0) ? 'btn-previous' : 'btn-next') + ' ' + op.arrowClass + '" value="' + ((i === 0) ? -1 : 1) + '" type="button">',
                             '<span class="' + ((i === 0) ? op.arrowPrevIconClass : op.arrowNextIconClass) + '"></span>',
                         '</button>'
                     ];
